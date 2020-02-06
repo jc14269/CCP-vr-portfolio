@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<IMDSimulation Name="graphene">
+    <IMDSettings Port="54321">
+	    <Command FileName="bash" SupportsPort="true" Arguments="graphene.sh ${PORT}" WorkingDir="/home/joe/DL_POLY/dl_poly_4.09/execute/graphene"/>
+        <!--<SyetemProiperties>-->
+		<!--<Logging>
+            <Logger LogPath="/home/joe/" type="XYZ" Positions="true" Velocities="false" 
+                    Forces="false" PotentialEnergy="true" WriteFrequency="10" UseDateTimeStamp="true"
+            />
+	</Logging>-->
+        <!--</SyetemProperties>-->
+    </IMDSettings>
+
+    <Topology>
+        <Residue Name="graphene">
+		<File Path="/home/joe/DL_POLY/dl_poly_4.09/execute/graphene/graphene1.xyz"/>
+        </Residue>
+        <ExternalForceFields>
+            <InteractiveGaussianForceField GradientScaleFactor="1000" />
+        </ExternalForceFields>
+
+        <DynamicBonds BondLength="0.16200	"/>
+
+
+    </Topology>
+</IMDSimulation>

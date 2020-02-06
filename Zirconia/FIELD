@@ -1,0 +1,13 @@
+Zirconia
+Units eV
+Molecules 1
+ZrO2
+NUMMOLS 1
+Atoms 96
+O		15.999		-2.0	64	
+Zr		91.224		 4.0 	32
+FINISH
+VDWTABLE 2
+Zr O BUCK 1024.6 0.376 0.0
+O O BUCK 22764 0.149 27.89
+CLOSE

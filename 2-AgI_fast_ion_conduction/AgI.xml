@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<IMDSimulation Name="AgI">
+    <IMDSettings Port="54321">
+	    <Command FileName="bash" SupportsPort="true" Arguments="AgI.sh ${PORT}" WorkingDir="/home/joe/DL_POLY/dl_poly_4.09/execute/2-AgI_fast_ion_conduction"/>
+        <!--<SyetemProperties>-->
+		<!--<Logging>
+            <Logger LogPath="/home/joe/" type="XYZ" Positions="true" Velocities="false" 
+                    Forces="false" PotentialEnergy="true" WriteFrequency="10" UseDateTimeStamp="true"
+            />
+	</Logging>-->
+        <!--</SyetemProperties>-->
+    </IMDSettings>
+
+    <Topology>
+        <Residue Name="AgI">
+		<File Path="/home/joe/DL_POLY/dl_poly_4.09/execute/2-AgI_fast_ion_conduction/AgI.xyz"/>
+        </Residue>
+        <ExternalForceFields>
+            <InteractiveGaussianForceField GradientScaleFactor="1000" />
+        </ExternalForceFields>
+
+        <DynamicBonds BondLength="0.1700	"/>
+
+
+    </Topology>
+</IMDSimulation>

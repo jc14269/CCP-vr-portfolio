@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<IMDSimulation Name="H2O">
+
+    <IMDSettings Port="54321">
+	    <Command FileName="bash" SupportsPort="true" Arguments="SPC_water.sh ${PORT}" WorkingDir="/home/joe/DL_POLY/dl_poly_4.09/execute/4-MD_algorithms_water"/>
+        <!--<SyetemProperties>-->
+		<!--<Logging>
+            <Logger LogPath="/home/joe/" type="XYZ" Positions="true" Velocities="false" 
+                    Forces="false" PotentialEnergy="true" WriteFrequency="10" UseDateTimeStamp="true"
+            />
+	</Logging>-->
+        <!--</SyetemProperties>-->
+    </IMDSettings>
+
+    <Topology>
+        <Residue Name="H2O">
+		<File Path="/home/joe/DL_POLY/dl_poly_4.09/execute/4-MD_algorithms_water/SPC_water.xyz"/>
+        </Residue>
+        <ExternalForceFields>
+            <InteractiveGaussianForceField GradientScaleFactor="1000" />
+        </ExternalForceFields>
+
+        <DynamicBonds BondLength="0.1500	"/>
+
+
+    </Topology>
+</IMDSimulation>

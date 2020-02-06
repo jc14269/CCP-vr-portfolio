@@ -1,0 +1,38 @@
+Perovskite
+
+
+#show minimum separation distance
+#l_dis
+
+# physical parameters
+temperature     5.00 Kelvin
+#pressure           0.0 k-atmospheres
+
+#equilibration directives
+#equilibration steps 5
+#scale every 5
+timestep 0.0005
+steps 10000000
+
+#system cutoffs and electrostatics
+rcut          10.0 Angstroms
+delr               1.0 Angstorms
+rdf                 100
+ewald precision  1.e-6
+
+
+densvar 100 %
+
+#thermostat
+#ensemble nvt lang 1 
+ensemble nve
+#plumed
+plumed input umbrella.dat
+
+#job time
+job time 1.4000E+10
+close time 1.0000E+10
+
+
+#finish
+finish

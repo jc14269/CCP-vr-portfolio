@@ -1,0 +1,111 @@
+DL_POLY: Li2O
+UNITS eV
+MOLECULES 1
+Lithium Oxide
+NUMMOLS 1 
+ATOMS 96
+Li           6.941       0.55    64
+O           15.999      -1.1    32
+teth 96
+harm 1   000
+harm 2   000
+harm 3   000
+harm 4   000
+harm 5   000
+harm 6   000
+harm 7   000
+harm 8   000
+harm 9   000
+harm 10  000
+harm 11  000
+harm 12  000
+harm 13  000
+harm 14  000
+harm 15  000
+harm 16  000
+harm 17  000
+harm 18  000
+harm 19  000
+harm 20  000
+harm 21  000
+harm 22  000
+harm 23  000
+harm 24  000
+harm 25  000
+harm 26  000
+harm 27  000
+harm 28  000
+harm 29  000
+harm 30  000
+harm 31  000
+harm 32  000
+harm 33  000
+harm 34  000
+harm 35  000
+harm 36  000
+harm 37  000
+harm 38  000
+harm 39  000
+harm 40  000
+harm 41  000
+harm 42  000
+harm 43  000
+harm 44  000
+harm 45  000
+harm 46  000
+harm 47  000
+harm 48  000
+harm 49  000
+harm 50  000
+harm 51  000
+harm 52  000
+harm 53  000
+harm 54  000
+harm 55  000
+harm 56  000
+harm 57  000
+harm 58  000
+harm 59  000
+harm 60  000
+harm 61  000
+harm 62  000
+harm 63  000
+harm 64  000
+harm 65  000
+harm 66  000
+harm 67  000
+harm 68  000
+harm 69  000
+harm 70  000
+harm 71  000
+harm 72  000
+harm 73  000
+harm 74  000
+harm 75  000
+harm 76  000
+harm 77  000
+harm 78  000
+harm 79  000
+harm 80  000
+harm 81  000
+harm 82  000
+harm 83  000
+harm 84  000
+harm 85  000
+harm 86  000
+harm 87  000
+harm 88  000
+harm 89  000
+harm 90  000
+harm 91  000
+harm 92  000
+harm 93  000
+harm 94  000
+harm 95  000
+harm 96  000
+FINISH
+VDWTABLE 3
+Li Li BUCK 270000 0.143 0.0 
+O O BUCK 11782.8 0.234 30.22
+Li O BUCK 30000 0.154 0.0
+CLOSE
