@@ -1,4 +1,4 @@
-https://zenodo.org/badge/238713984.sv
+https://zenodo.org/badge/latestdoi/238713984
 
 # CCP-vr-portfolio
 
