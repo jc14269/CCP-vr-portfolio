@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <IMDSimulation Name="graphene">
     <IMDSettings Port="54321">
-	    <Command FileName="bash" SupportsPort="true" Arguments="graphene.sh ${PORT}" WorkingDir="/home/joe/DL_POLY/dl_poly_4.09/execute/graphene"/>
+	    <Command FileName="bash" SupportsPort="true" Arguments="graphene.sh ${PORT}" WorkingDir="CCP-vr-portfolio/graphene"/>
         <!--<SyetemProiperties>-->
 		<!--<Logging>
             <Logger LogPath="/home/joe/" type="XYZ" Positions="true" Velocities="false" 
